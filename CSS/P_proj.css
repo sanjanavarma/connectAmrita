@@ -1,0 +1,22 @@
+.outer{
+    background-image: linear-gradient(to bottom,#4494bd,#494949);
+    
+}
+.inner{
+    margin: 200px;
+    padding: 5px  5px 5px 5px;
+    background-image: linear-gradient(to bottom,#4494bd,#494949);;
+}
+body{
+    background-image: linear-gradient(to bottom,#4494bd,#494949);
+}
+.calen{
+    margin-left: 10%;
+}
+.heading{
+    padding: 2%;
+    background-color: black;
+    color: #494949;
+    font-style: italic;
+    font-size: x-large;
+}
