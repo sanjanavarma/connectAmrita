@@ -1,11 +1,25 @@
-.outer{
-    background-image: linear-gradient(to bottom,#4494bd,#494949);
-    
-}
-.inner{
-    margin: 200px;
-    padding: 5px  5px 5px 5px;
-    background-image: linear-gradient(to bottom,#4494bd,#494949);;
+
+.outer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .inner {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #295997;
+    background: -webkit-linear-gradient(-135deg,#f4f5f5,#ffffff);
+    background: -o-linear-gradient(-135deg, #cdd4d8,#ffffff);
+    background: -moz-linear-gradient(-135deg, #929ba0,#e4dede);
+    background: linear-gradient(-135deg, #dbe2e6,#e6d8d8);
 }
 body{
     background-image: linear-gradient(to bottom,#4494bd,#494949);
